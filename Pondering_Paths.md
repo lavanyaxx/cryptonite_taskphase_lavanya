@@ -27,14 +27,21 @@ For example, if we want to access some file located at /tmp/a/b/my_file, and cwd
 In this we learnt that every directory has two implicit entries that we can reference in paths: . and ..
 All of these absolute paths are identical:
 /challenge
+
 /challenge/.
+
 /challenge/./././././././././
+
 /./././challenge/././
 
 All these relative paths are identical:
+
 challenge
+
 ./challenge
+
 ./././challenge
+
 challenge/.
 
 ## HOME SWEET HOME 
