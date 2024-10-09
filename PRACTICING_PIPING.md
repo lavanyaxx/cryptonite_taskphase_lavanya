@@ -39,8 +39,8 @@ We can also redirect input to the programs by using the "<" character.
 
 In this challenge we were required to redirect the PWN file to /challenge/run and have the PWN file contain the value COLLEGE.
 
-```echo "COLLEGE" > PWN
-/challenge/run < PWN```
+```echo "COLLEGE" > PWN```
+```/challenge/run < PWN```
 
 ## GREPPING STORED RESULTS
 
