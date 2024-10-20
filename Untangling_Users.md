@@ -24,10 +24,15 @@ The cracking can be done via the famous John the Ripper.
 ```john /challenge/shadow-leak```
 
 Loaded 1 password hash (crypt, generic crypt(3) [?/64])
+
 Press 'q' or Ctrl-C to abort, almost any other key for status
+
 aardvark         (zardus)
+
 1g 0:00:00:20 100% 2/3 0.04866g/s 283.3p/s 283.3c/s 283.3C/s Johnson..buzz
+
 Use the "--show" option to display all of the cracked passwords reliably
+
 Session completed
 
 So here we got the password as aardvark.
