@@ -46,3 +46,5 @@ This challenge deleted the flag using the rm command.
  ``` nano /home/hacker/fake_commands/rm ```
 
   ```chmod +x /home/hacker/fake_commands/rm ```
+
+  ```export PATH="/home/hacker/fake_commands:$PATH"```
